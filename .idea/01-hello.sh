@@ -1,3 +1,3 @@
 #!/bin/bash
 #this is my first shell scripting
-echo helloworld
+echo -e "hello\n\tworld"
