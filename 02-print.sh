@@ -32,4 +32,4 @@ echo hello i am here
 # echo -e "\e[pur_code;col_code\
 echo -e "\e[4;33mInida\e[0m"
 echo indian
-echo -e "\e[2;33mMy name is Rajakumar Battula\e[0m"
+echo -e "\e[36mMy name is Rajakumar Battula\e[0m"
