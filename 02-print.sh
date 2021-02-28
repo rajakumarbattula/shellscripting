@@ -22,4 +22,14 @@ echo helloworld
 # BLUE   34
 # MAGENTA   35
 # CYAN   36
-echo -e "\e[31mHELLO"
+echo -e "\e[31mHELLO" # to enables color
+echo hello i am here
+# to disable color
+# code   purpose
+# 0    reset the color
+# 1    bold the text
+# 4    underline the text
+# echo -e "\e[pur_code;col_code\
+echo -e "\e[4;33mInida\e[0m"
+echo indian
+echo -e "\e[2;33mMy name is Rajakumar Battula\e[0m"
