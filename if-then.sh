@@ -1,11 +1,8 @@
 #!/bin/bash
-
-
-a=100
-
-if [ "$a" -eq 100]
+count=100
+if[$count -eq 100]
 then
-  echo "Count is 100"
+  echo " count is 100"
 else
-  echo "Count is not 100"
+  echo "count is not 100"
 fi
