@@ -1,8 +1,10 @@
 #!/bin/bash
 
 
-count=100
-if[$count -eq 100]
+a=100
+# shellcheck disable=SC1072
+# shellcheck disable=SC1009
+if[$a -eq 100]
 then
   echo " Count is 100"
   else
