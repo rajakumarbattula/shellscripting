@@ -10,7 +10,7 @@ then
   echo " congratulations for choosing devops course"
 elif [ $like == b ]
 then
-  echo "congratulations for choosing data science cours "
+  echo "congratulations for choosing data science course "
   echo
 fi
 
